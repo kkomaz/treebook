@@ -7,19 +7,60 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a href="#" class="brand">Treebook</a>
-                <ul class="nav">
-                    <li class="divider-vertical"><%= link_to "All Statuses", statuses_path%></li>
-                </ul>
-            </div>            
-        </div>
-    </div>
-    <div class="container">
-        <%= yield %>
-    </div>
+  
+<div class="span3 bs-docs-sidebar">
+  <ul class="nav nav-list bs-docs-sidenav affix">
+    <li class>
+      <a href="#">
+        <i class="icon-chevron-right"></i>
+         Dropdowns
+      </a>
+    </li>
+    
+    <li>
+    <a href="#">
+      <i class="icon-chevron-right"></i>
+      News Feed
+    </a> 
+    </li>
+    <li>
+    <a href="#">
+      <i class="icon-chevron-right"></i>
+      Messages
+    </a> 
+    </li>
+    <li>
+    <a href="#">
+      <i class="icon-chevron-right"></i>
+      Events
+    </a> 
+    </li>
+    <a href="#">
+      <i class="icon-chevron-right"></i>
+      Photos
+    </a> 
+    </li>
+  </ul>
+</div>
 
+  <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+          <div class="container">
+              <a href="#" class="brand">Treebook</a>
+              <ul class="nav">
+                  <li class="divider-vertical"><%= link_to "All Statuses", statuses_path%></li>
+              </ul>
+          </div>            
+      </div>
+  </div>
+  <div class="container">
+      <%= yield %>
+  </div>
+  
+  <div class="container">
+      <div class="panel-footer">
+        This is the footer!
+      </div>
+  </div>
 </body>
 </html>
