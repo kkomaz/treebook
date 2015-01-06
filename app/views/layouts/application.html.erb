@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  
+
 <div class="span3 bs-docs-sidebar">
   <ul class="nav nav-list bs-docs-sidenav affix">
     <li class>
@@ -54,13 +54,9 @@
       </div>
   </div>
   <div class="container">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
       <%= yield %>
-  </div>
-  
-  <div class="container">
-      <div class="panel-footer">
-        This is the footer!
-      </div>
   </div>
 </body>
 </html>
