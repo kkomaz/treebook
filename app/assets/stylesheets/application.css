@@ -28,3 +28,7 @@ opacity: .25;
 .well {
     background-color: #HAHAHA;
 }
+
+.alert{
+    margin-top: 10px;
+}
