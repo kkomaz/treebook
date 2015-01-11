@@ -4,3 +4,8 @@ alex:
     email: "leeajl006@gmail.com"
     profile_name: "kkomaz"
 
+jim:
+    first_name: "Jim"
+    last_name: "Hoskins"
+    email: "jim@teamtreehouse.com"
+    profile_name: "jimhoskins"
